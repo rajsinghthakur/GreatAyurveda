@@ -1,0 +1,98 @@
+/* .contact-img{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url('Natural-Ayurvedic-min.jpg'); 
+  background-size: cover;
+  background-position: 0% 0%;
+
+} */
+
+.contact-img {
+    width: 99vw;
+    padding: 0;
+    margin-top: 2px;
+    height: 450px;
+}
+
+.contact-img-main {
+    width: 99vw;
+    height: 100%;
+    background: url('./images/WhatsApp\ Image\ 2024-04-06\ at\ 12.40.11_599ff675.jpg') no-repeat center;
+    background-size: cover;
+    /* background-position: center top; */
+    /* background-attachment: fixed; */
+}
+
+.support {
+    height: 70px;
+    width: 70px;
+    background: url('./images/support.png') no-repeat center;
+    background-size: cover;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+}
+
+.text-overlay h1 {
+    margin: 0 0 10px 0;
+    color: var(--white);
+}
+
+
+.text-overlay h2 {
+    margin: 0 0 10px 0;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+
+label span {
+    color: red;
+}
+
+.custom-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(104, 101, 101);
+    padding: 0;
+    outline: none;
+}
+
+.quick-enquiry {
+    height: auto;
+    width: auto;
+    border-left: 7px solid var(--green);
+    border-radius: 20px;
+    box-shadow: 0 0 5px grey;
+
+}
+
+.custom-button {
+    background-color: var(--green);
+    color: var(--white);
+}
+.custom-button:hover {
+    /* background-color: var(--green); */
+    color: var(--green) !important;
+    border: 1px solid var(--green) !important;
+}
+
+/* ==========================MEDIA QUERY ========================== */
+
+
+
+
+@media (max-width: 921px)and (min-width: 500px) {
+    .contact-img {
+        width: 105%;
+    }
+}

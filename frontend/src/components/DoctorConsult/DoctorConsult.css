@@ -1,0 +1,90 @@
+.doctor-container {
+
+}
+
+.doctor-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.doctor-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+}
+
+.profile-info h1 {
+  font-size: x-large;
+}
+
+
+.profile-info :nth-child(2) {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+@media (max-width:1000px) and (min-width: 768px) {
+  .alldata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .doctor-details{
+    margin-left: 90px !important;
+   
+  }
+
+}
+
+
+@media (max-width:1000px) and (min-width: 301px) {
+  .profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .doctor-details{
+    margin-left: 80px !important;
+  }
+
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width:768px) and (min-width: 528px) {
+  .doctor-details{
+    margin-left: 150px !important;
+  }
+}
+@media (max-width:345px) and (min-width: 301px) {
+  .doctor-details{
+    margin-left: 60px !important;
+  }
+}
+/* .chatbot{
+  margin-left: 1450px;
+  margin-top: 200px;
+  display: inline;
+  border: 1px solid red;
+} */
+.chatbot {
+  position: absolute;
+  top: 650px; /* Adjust as needed */
+  left: 1450px; /* Adjust as needed */
+  color: var(--green);
+  position: fixed;
+}
+

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif !important;
+}
+
+:root {
+  --green: #35754A;
+  --green-2: #45905e;
+  --green-3: #6fa781;
+  --red: #ff0000;
+  --orange: #D96D1E;
+  --white: #ffffff;
+  --white-2: #e0e0e0;
+  --gray: #b9b9b9;
+  --black-2: #292929;
+  --black: #000000;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-iconss {
+  margin: 20px 0;
+}
+
+.social-icons div {
+  border: 1px solid var(--gray);
+  border-radius: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+}
+
+.social-iconss div {
+  border: 1px solid var(--gray);
+  border-radius: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons div:hover {
+  scale: 1.3;
+  border: 1px solid var(--black);
+}
+
+.icon-google {
+  height: 100%;
+  width: 100%;
+  background: url("../public/images/icons8-google-plus-100.png") no-repeat center;
+  background-size: 90%;
+  cursor: pointer;
+}
+
+.icon-facebook {
+  height: 100%;
+  width: 100%;
+  background: url("../public/images/icons8-facebook-50.png") no-repeat center;
+  background-size: 70%;
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-form {
+  width: 40%;
+  padding: 10px;
+  box-shadow: 10px 10px 10px var(--gray);
+}
+
+.btnn {
+  border: 2px solid var(--green) !important;
+  padding: 7px 20px;
+  width: 135px;
+  background-color: var(--green);
+  border: var(--green);
+  border-radius: 10px;
+  font-weight: bolder !important;
+}
+
+.btnn:hover {
+  background-color: var(--white);
+  color: var(--green) !important;
+  scale: 1.01;
+}
+
+.addtocart-btn {
+  background-color: var(--white);
+  border: 2px solid var(--green) !important;
+  color: var(--green) !important;
+}
+
+.addtocart-btn:hover {
+  background-color: var(--green);
+  color: var(--white) !important;
+}
+
+.buynow-btn {
+  border: 2px solid var(--orange) !important;
+  background-color: var(--orange);
+  border: 2px solid var(--orange);
+}
+
+.buynow-btn:hover {
+  color: var(--orange) !important;
+  border: 2px solid var(--orange) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .btnn {
+    padding: 5px;
+    width: 110px;
+    border-radius: 6px;
+    font-weight: bold !important;
+    font-size: 12px;
+  }
+
+  .product-reting {
+    height: 20px;
+    width: 20px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .qwerty{
+    width: 90vw;
+  }
+}
+
+/* youtube hover =================================== */
+#view_hover {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.view {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  height: 30px;
+  width: 50px;
+  border-radius: 7px;
+  background: var(--red);
+  left: 50%;
+  text-align: center;
+  z-index: 1;
+  display: none;
+  color: var(--white);
+}
+
+.view:hover {
+  scale: 1.1;
+}
+
+#view_hover:hover>.view {
+  display: block;
+}

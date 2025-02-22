@@ -1,0 +1,87 @@
+.footer-logo {
+    height: 70px;
+    width: 105px;
+    background: url("./images/A2.png") no-repeat center;
+    background-size: cover;
+}
+
+.icon-wikipedia {
+    height: 100%;
+    width: 100%;
+    background: url("./images/icons8-wikipedia-48.png") no-repeat center;
+    background-size: 80%;
+    cursor: pointer;
+}
+
+.icon-insta {
+    height: 100%;
+    width: 100%;
+    background: url("./images/icons8-instagram-48.png") no-repeat center;
+    background-size: 110%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+    .footer-inner {
+        margin: 2vw !important;
+    }
+
+    .footer-customersupport {
+        padding: 0vw !important;
+    }
+
+    .footer-h3 {
+        font-size: 15px;
+    }
+
+    .footer-values {
+        font-size: 10px;
+        padding-left: 1vw !important;
+    }
+
+    .footer-icon {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-wrap: nowrap !important;
+        align-items: center;
+    }
+
+    .footer-logo {
+        height: 60px;
+        width: 90px;
+        background: url("./images/A2.png") no-repeat center;
+        background-size: cover;
+        margin: 0 !important;
+    }
+
+    .footer-text {
+        margin-left: 6px !important;
+    }
+
+    .footer-text h6 {
+        margin-top: 3vw;
+        font-size: 10px;
+
+    }
+
+    .footer-aboutus,
+    .footer-customersupport,
+    .footer-account,
+    .footer-privacypolicy,
+    .footer-privacypolicy-top {
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-privacypolicy {
+        display: flex;
+        margin-top: 3vw;
+        width: 100%;
+        align-items: center;
+    }
+}

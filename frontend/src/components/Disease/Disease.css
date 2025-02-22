@@ -1,0 +1,19 @@
+.disease-solution {
+    width: 550px;
+}
+
+.scrollLink:hover {
+    .deseaseimghover {
+        scale: 1.06;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .disease-solution {
+        width: auto !important;
+    }
+
+    .disease-card {
+        margin: 5vw !important;
+    }
+}

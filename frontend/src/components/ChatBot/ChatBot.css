@@ -1,0 +1,15 @@
+.chatbot-container {
+    position: fixed;
+    top: 60%; /* Adjust top position as needed */
+    right: 20px; /* Adjust right position as needed */
+    transform: translateY(-50%);
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.close-icon{
+   position: absolute;
+   top: 13px;
+   left: 85%;
+   z-index: 5000;
+   color: white;
+}

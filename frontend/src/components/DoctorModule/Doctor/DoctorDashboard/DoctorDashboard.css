@@ -1,0 +1,14 @@
+.doctor-imgs img{
+    width: 100px;
+    height: 100px;
+
+}
+.doctor-imgs{
+    background-color: var(--green);
+    margin-top: -30px;
+    padding-top: 20px;
+}
+
+.link {
+    text-decoration: none !important;
+}

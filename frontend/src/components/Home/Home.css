@@ -1,0 +1,21 @@
+.home {
+    width: 99vw;
+}
+
+.Home-image {
+    height: 37vw;
+    width: 100%;
+    background: url("./images/home1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.remove-scroller {
+    vertical-align: middle;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.remove-scroller::-webkit-scrollbar {
+    display: none;
+}

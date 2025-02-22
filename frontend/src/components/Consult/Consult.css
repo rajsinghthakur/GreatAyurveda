@@ -1,0 +1,96 @@
+.doctor-consult {
+    width: 600px;
+   
+}
+
+.doctor-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+
+}
+.doctor-detail{
+    font-size: small;
+}
+
+@media (max-width:580px) and (min-width: 480px) {
+    .doctor-consult{
+     width: 450px;
+
+    }
+}
+@media (max-width:481px) and (min-width: 415px) {
+    .doctor-consult{
+     width: 400px;
+
+    }
+    .doctor-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+    
+    }
+    .doctor-detail{
+        font-size:x-small
+    }
+   .profile-info h1{
+        font-size: small;
+    }
+    .form-data{
+        font-size: small;
+    }
+
+}
+@media (max-width:414px) and (min-width: 360px) {
+    .doctor-consult{
+     width: 300px;
+
+    }
+    .doctor-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90px;
+        width: 90px;
+    
+    }
+    .doctor-detail{
+        font-size:x-small
+    }
+   .profile-info h1{
+        font-size: small;
+    }
+    .form-data{
+        font-size: small;
+    }
+
+}
+@media (max-width:414px) and (min-width: 360px) {
+    .doctor-consult{
+     width: 280px;
+  
+    }
+    .doctor-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90px;
+        width: 90px;
+    
+    }
+    
+    .doctor-detail{
+        font-size:x-small
+    }
+   .profile-info h1{
+        font-size: small;
+    }
+    .form-data{
+        font-size: small;
+    }
+
+}

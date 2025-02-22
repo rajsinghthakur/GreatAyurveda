@@ -1,0 +1,64 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@meinefinsternis/react-horizontal-date-picker": "^1.0.1",
+    "@mui/material": "^5.15.18",
+    "@react-oauth/google": "^0.12.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ation": "^0.0.51",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.7.1",
+    "otp-input-react": "^0.3.0",
+    "razorpay": "^2.9.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-horizontal-strip-datepicker": "^3.0.2",
+    "react-icons": "^5.0.1",
+    "react-multi-carousel": "^2.8.5",
+    "react-native": "^0.74.0",
+    "react-native-otp-inputs": "^7.4.0",
+    "react-otp-input": "^3.1.1",
+    "react-player": "^2.15.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
+    "react-simple-chatbot": "^0.6.1",
+    "react-toastify": "^10.0.5",
+    "semantic-ui-react": "^2.1.5",
+    "styled-components": "^4.4.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+.navbar-m {
+    padding: 0 2vw !important;
+}
+
+.no-border {
+    border: 0 !important;
+    box-shadow: none !important;
+    /* You may want to include this as bootstrap applies these styles too */
+}
+
+.login-icon {
+    height: 32px;
+    width: 32px;
+    background: url("./images/icons8-user-80.png") 50%;
+    background-size: cover;
+}
+
+.login-text {
+    color: var(--green);
+    font-weight: 700;
+}
+
+.cart-icon {
+    height: 45px;
+    width: 45px;
+    background: url("./images/icons8-cart-96.png") 0%;
+    background-size: cover;
+}
+
+.cart-text {
+    color: var(--green);
+    font-weight: 700;
+}
+
+.login-user {
+    height: 30px;
+    width: 30px;
+    background: url("./images/icons8-user-64.png") 50%;
+    background-size: cover;
+}
+
+.login-doctor {
+    height: 30px;
+    width: 30px;
+    background: url("./images/icons8-doctor-100\ \(1\).png") 0%;
+    background-size: cover;
+}
+
+.login-orders {
+    height: 30px;
+    width: 30px;
+    background: url("./images/icons8-clipboard-64.png") 50%;
+    background-size: 115%;
+}
+
+.login-cart {
+    height: 30px;
+    width: 30px;
+    background: url("./images/icons8-cart-96.png") 50%;
+    background-size: 130%;
+}
+
+.login-logout {
+    height: 30px;
+    width: 30px;
+    background: url("./images/icons8-logout-96.png") 0%;
+    background-size: cover;
+}
+
+.loginheader {
+    transition: all 0.5s;
+}
+
+.loginheader:hover {
+    scale: 1.05;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .header-sch {
+        margin: 0 !important;
+        width: auto !important;
+    }
+
+    .navv {
+        display: flex !important;
+        align-items: start;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .nav-list {
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .navbar-m {
+        padding: 0 !important;
+    }
+
+    .headernav {
+        height: 60px !important;
+    }
+
+    .nav-li {
+        display: grid;
+        place-items: start;
+    }
+
+    .navbar-li {
+        display: grid;
+        place-items: center;
+    }
+
+    .dropdown-menu {
+        right: auto;
+        left: 0;
+    }
+
+    .dropend {
+        position: static !important;
+    }
+
+    .dropdownlist {
+        width: auto !important;
+    }
+}

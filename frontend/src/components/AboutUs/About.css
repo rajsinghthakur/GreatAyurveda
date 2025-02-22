@@ -1,0 +1,79 @@
+/* {====================================================FIRST-SECTION=======================================================} */
+
+.about_Image {
+    width: 100vw;
+    height: 550px;
+}
+
+.Image_text {
+    font-size: 10px;
+}
+
+/* Media Queries */
+@media (100px <= width <= 500px) {
+    .Image_text > h1 {
+        font-size: 1.5rem;
+    }
+
+    .Image_text {
+        padding-top: 30px;
+    }
+
+    .about_Image {
+        margin-top: 5px;
+        height: 200px;
+    }
+
+    .Image_text > p {
+        font-size: 0.4rem;
+    }
+}
+
+@media (500px <= width <= 760px) {
+    .Image_text > h1 {
+        font-size: 2.2rem;
+    }
+
+    .about_Image {
+        margin-top: 15px;
+    }
+
+    .Image_text > p {
+        font-size: 0.8rem;
+    }
+
+    .HistoryofAyurveda {
+        margin-top: 30px !important;
+    }
+}
+
+@media (760px <= width <= 1600px) {
+    .about_Image {
+        margin-top: 10px;
+    }
+
+    .Image_text > h1 {
+        font-size: 2.6rem;
+    }
+
+    .Image_text > p {
+        font-size: 1rem;
+    }
+}
+
+/* Specific Styles */
+#history_right-image > img {
+    border-radius: 50%;
+}
+
+#about-icon-font-awesome {
+    color: rgb(86, 142, 86);
+}
+
+#about_third_section {
+    background-color: rgba(171, 177, 183, 0.64);
+}
+
+#history_box {
+    background-color: white;
+}
