@@ -1,0 +1,254 @@
+[
+    {
+        "remedyName": "Ginger Tea for Nausea",
+        "description": "Ginger tea is a traditional remedy for nausea and digestive issues.",
+        "ingredients": "1-inch piece of fresh ginger,1 cup of water, Honey (optional)",
+        "instructions": "1. Peel and grate the ginger.,2. Boil the water and add the grated ginger.,3. Simmer for 5-10 minutes.,4. Strain the tea and add honey if desired., 5. Drink slowly.",
+        "imageUrl": "https://media.istockphoto.com/id/656808066/photo/cup-of-tea-with-ginger-root-on-grey-wooden-table.jpg?s=612x612&w=0&k=20&c=0RVG17kacx4chN-V6K9hvSMwWogufh19vwzl2qEyNp4=",
+        "caution": "Consult a doctor if nausea persists or worsens.",
+        "categoryname": "Stomach pain"
+    },
+    {
+        "remedyName": "Basan ka Sheera",
+        "description": "Basan ka sheera is a comforting Indian dessert made with gram flour, ghee, and sugar, often enjoyed during festivals and as a treat during cold weather.",
+        "ingredients": "1/2 cup gram flour (besan),1/4 cup ghee (clarified butter),1/2 cup sugar (adjust to taste),2 cups water,A pinch of cardamom powder (optional),A few almonds or cashews for garnish (optional)",
+        "instructions": "1. Heat the ghee in a pan on medium heat.,2. Add the gram flour (besan) to the ghee and roast it on low to medium heat until it turns golden brown and aromatic.,3. Keep stirring continuously to avoid burning.,4. Meanwhile in another saucepan,5. heat the water and sugar together until the sugar dissolves completely to make a sugar syrup.,6. Once the gram flour is roasted well slowly add the sugar syrup to it stirring continuously to avoid lumps.,7. Add cardamom powder if using and continue to cook until the mixture thickens to a porridge-like consistency.Once done.,8. remove from heat and garnish with chopped almonds or cashews if desired.Serve hot and enjoy!",
+        "imageUrl": "https://static.toiimg.com/photo/66349521.cms",
+        "caution": "Be careful while roasting gram flour, as it can burn quickly if not stirred constantly. Also, be cautious when handling hot sugar syrup.",
+        "categoryname": "Cough and Cold (Flu)"
+    },
+    {
+        "remedyName": "Apple Cider Vinegar for Acidity",
+        "description": "Apple cider vinegar helps in neutralizing stomach acid and relieving acidity.",
+        "ingredients": "1 tablespoon of raw, unfiltered apple cider vinegar, 1 glass of water, Honey (optional)",
+        "instructions": "1. Mix apple cider vinegar with water.,2. Add honey if desired.,3. Drink this mixture before meals.",
+        "imageUrl": "https://wellbeingnutrition.com/cdn/shop/articles/fresh-apple-juice-close-up-shot_53876-65292.jpg?v=1678361229",
+        "caution": "Excessive use may cause tooth enamel erosion or digestive issues. Consult a doctor if symptoms worsen.",
+        "categoryname": "Acidity"
+    },
+    {
+        "remedyName": "Peppermint Tea for Headache",
+        "description": "Peppermint tea has analgesic properties that can help in relieving headache pain.",
+        "ingredients": "1 teaspoon of dried peppermint leaves, 1 cup of water, Honey (optional)",
+        "instructions": "1. Boil water and pour it over dried peppermint leaves.,2. Cover and steep for 10 minutes.,3. Strain the tea and add honey if desired.,4. Drink slowly.",
+        "imageUrl": "https://media.istockphoto.com/id/1221164147/photo/mint-tea-with-fresh-mint-leaves-in-glass-cup-alternative-medicine-concept-healthy-hot-drink.jpg?s=612x612&w=0&k=20&c=dWgBUym9DBto8ipB5ox92x1DFlWjM-Sox-VlYKn1aik=",
+        "caution": "Avoid if allergic to mint. Consult a doctor if headache persists.",
+        "categoryname": "Headache"
+    },
+    {
+        "remedyName": "Peppermint Oil for Migraine Relief",
+        "description": "Peppermint oil has analgesic properties that can help in relieving migraine pain.",
+        "ingredients": "Peppermint essential oil, Carrier oil (such as almond oil or coconut oil)",
+        "instructions": "1. Dilute peppermint oil with a carrier oil.,2. Apply the diluted oil to the temples and massage gently.,3. Relax and breathe deeply.",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0283/6535/7155/files/coconut-oil_216984226_600x600.jpg?v=1600841848",
+        "caution": "Avoid contact with eyes and mucous membranes. Consult a doctor for severe migraine episodes.",
+        "categoryname": "Migraine"
+    },
+    {
+        "remedyName": "Turmeric Paste for Joint Pain Relief",
+        "description": "Turmeric contains curcumin, which has anti-inflammatory properties helpful in reducing joint pain and inflammation.",
+        "ingredients": "1 tablespoon of turmeric powder, Water",
+        "instructions": "1. Mix turmeric powder with water to form a paste.,2. Apply the paste to the affected joints.,3. Leave it on for 20-30 minutes. ,4. Rinse off with warm water.",
+        "imageUrl": "https://draxe.com/wp-content/uploads/2022/08/DrAxeTumericBenefitsThumbnail.jpg",
+        "caution": "Turmeric may stain skin and clothing. Consult a doctor for chronic joint pain.",
+        "categoryname": "Joint Pain"
+    },
+    {
+        "remedyName": "Chamomile Tea for Sleep Disorder",
+        "description": "Chamomile tea has calming effects that can promote relaxation and improve sleep quality.",
+        "ingredients": "1 teaspoon of dried chamomile flowers, 1 cup of water, Honey (optional)",
+        "instructions": "1. Boil water and pour it over dried chamomile flowers.,2. Cover and steep for 5-10 minutes.,3. Strain the tea and add honey if desired.,4. Drink before bedtime.",
+        "imageUrl": "https://sleepopolis.com/wp-content/uploads/2023/02/iStock-1277086333-2.jpg",
+        "caution": "Avoid chamomile if allergic to plants in the daisy family. Consult a doctor for chronic sleep disorder.",
+        "categoryname": "Sleep Disorder"
+    },
+    {
+        "remedyName": "Lavender Oil for Headache Relief",
+        "description": "Lavender oil has soothing properties that can help in alleviating headache pain and promoting relaxation.",
+        "ingredients": "Lavender essential oil,Carrier oil (such as coconut oil or olive oil)",
+        "instructions": "1. Start by selecting a carrier oil like coconut oil or olive oil.,2. These oils will dilute the lavender essential oil and help carry its properties to your skin without causing irritation.,3. For a typical dilution you'll want to use about 3 to 5 drops of lavender essential oil per teaspoon (5ml) of carrier oil.,4. You can adjust this ratio according to your preference but it's generally recommended to start with a lower concentration of essential oil and increase gradually if needed.,5. Combine the lavender essential oil with your chosen carrier oil in a clean, 6. dry container. Stir or shake gently to ensure thorough mixing.,7. Store the mixture in a dark-colored glass bottle to protect it from light which can degrade the oils over time. ,8.Make sure to label the bottle with the contents and date of preparation.",
+        "imageUrl": "https://utamaspicebali.com/wp-content/uploads/2019/09/8-headache-Blog.jpg",
+        "caution": "Avoid direct skin contact with undiluted lavender oil. Consult a doctor for severe headaches.",
+        "categoryname": "Headache"
+    },
+    {
+        "remedyName": "Anemia Fighting Smoothie",
+        "description": "This smoothie is packed with iron-rich ingredients to help combat anemia and boost your energy levels.",
+        "ingredients": "Spinach,Beetroot,Apple,Banana,Chia seeds,Almond milk",
+        "instructions": "1. Wash the spinach and beetroot thoroughly.,2. Peel and chop the apple and beetroot.,3. Add all ingredients to a blender.,4. Blend until smooth and creamy.,5. Pour into a glass and enjoy!",
+        "imageUrl": "https://healthywithachanceofsprinkles.com/wp-content/uploads/2021/11/The-Best-Iron-Rich-Smoothie-Recipe-1.jpg",
+        "caution": "If you have any allergies to the ingredients, please avoid this remedy. Consult a healthcare professional if you have severe anemia.",
+        "categoryname": "Anemia"
+    },
+    {
+        "remedyName": "Cumin Seed Water for Stomach Ache Relief",
+        "description": "Cumin seeds have carminative properties that can help alleviate stomach pain, bloating, and indigestion.",
+        "ingredients": "Cumin seeds (1 tablespoon),Water (1 cup)",
+        "instructions": "1. Boil the water in a saucepan.,2.Add the cumin seeds to the boiling water.,3. Let it simmer for about 5-10 minutes.,4. Strain the cumin seed water into a cup.,5. Allow it to cool slightly., 6. Sip the cumin seed water slowly for relief from stomach ache.",
+        "imageUrl": "https://media.post.rvohealth.io/wp-content/uploads/2020/08/1556-cumin_benefits-732x549-thumbnail.jpg",
+        "caution": "Avoid excessive consumption of cumin seed water if you have a history of allergic reactions to cumin or digestive issues. If your stomach ache persists or worsens, consult a doctor.",
+        "categoryname": "Stomach pain"
+    },
+    {
+        "remedyName": "Garlic for Blood Pressure Regulation",
+        "description": "Garlic can help in lowering high blood pressure due to its vasodilator properties.",
+        "ingredients": "2-3 cloves of garlic",
+        "instructions": "1. Peel and crush the garlic cloves.,2. Consume raw garlic cloves daily or incorporate into meals.",
+        "imageUrl": "https://staticimg.amarujala.com/assets/images/2020/07/14/garlic_1594723321.jpeg?w=414",
+        "caution": "Consult a doctor for proper monitoring and management of blood pressure.",
+        "categoryname": "Blood Pressure"
+    },
+    {
+        "remedyName": "Boiled Rice with Curd for Loose Motion Relief",
+        "description": "Boiled rice and curd (yogurt) are easily digestible foods that can help firm up stools and provide relief from loose motion.",
+        "ingredients": "White rice (1/2 cup),Water (2 cups),Plain yogurt (1/2 cup),Salt (to taste)",
+        "instructions": "1. Rinse the white rice thoroughly under cold water to remove any impurities.,2. In a saucepan add the rinsed rice and water.,3. Bring the water to a boil then reduce the heat to low and let it simmer for about 15-20 minutes,4. until the rice is cooked and soft.,5. Once the rice is cooked strain any excess water and allow the rice to cool down to a lukewarm temperature., 6. In a bowl mix the boiled rice with plain yogurt and a pinch of salt.,7. Eat the boiled rice with yogurt slowly in small bites, 8.to help firm up stools and soothe the digestive system.",
+        "imageUrl": "https://www.chefkunalkapur.com/wp-content/uploads/2023/05/DSC09411-scaled.jpg?v=1684031938",
+        "caution": "Avoid adding any spices or oily foods to the boiled rice and yogurt mixture, as these may aggravate loose motion. If loose motion persists for more than a couple of days or if you experience severe dehydration, seek medical attention.",
+        "categoryname": "Loose motion"
+    },
+    {
+        "remedyName": "Honey and Lemon for Cold Relief",
+        "description": "Honey and lemon have antibacterial properties and can help in soothing sore throat and reducing cold symptoms.",
+        "ingredients": "1 tablespoon of honey, 1 tablespoon of lemon juice, Warm water",
+        "instructions": "1. Mix honey and lemon juice in warm water.,2. Drink this mixture several times a day.",
+        "imageUrl": "https://media.istockphoto.com/id/1142669969/photo/a-glass-cup-of-tea-with-lemon-mint-and-ginger.jpg?s=612x612&w=0&k=20&c=DpFoWpAtDtup_Kaza8FbW_TOR1zDJZY-2HJ5gZzRRmw=",
+        "caution": "Avoid giving honey to infants under one year old. Consult a doctor if cold symptoms worsen or persist.",
+        "categoryname": "Cough and Cold (Flu)"
+    },
+    {
+        "remedyName": "Anxiety-Relief Smoothie",
+        "description": "Almonds and bananas are rich in nutrients like magnesium and potassium, which can help calm the nervous system and reduce anxiety.",
+        "ingredients": "1 ripe banana,Handful of almonds (about 1/4 cup), soaked overnight,1 cup of almond milk (or any milk of your choice),Honey or maple syrup (optional, for sweetness)",
+        "instructions": "1. Peel the ripe banana and cut it into chunks.,2. In a blender add the banana chunks soaked almonds and almond milk.,3. Blend until smooth and creamy.,4. If desired add honey or maple syrup for sweetness and blend again.,5. Pour the smoothie into a glass and enjoy its calming effects.",
+        "imageUrl": "https://www.healthshots.com/wp-content/uploads/2020/07/banana-almond-smoothie.jpg",
+        "caution": "Avoid this remedy if you are allergic to almonds or bananas. Consult a healthcare professional if you experience severe anxiety symptoms.",
+        "categoryname": "Anxiety"
+    },
+    {
+        "remedyName": "Boiled Rice and Toast for Typhoid Recovery",
+        "description": "Boiled rice and toast are easily digestible foods that can help in recovering from typhoid fever and restoring energy.",
+        "ingredients": "Boiled rice,Plain toast",
+        "instructions": "1. Consume small portions of boiled rice and plain toast as tolerated.",
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/blog/2020/03/1585299158_typhoid_big_600.jpg",
+        "caution": "Ensure proper hydration and follow medical advice for typhoid fever treatment.",
+        "categoryname": "Typhoid"
+    },
+    {
+        "remedyName": "Fever-Reducing Herbal Brew",
+        "description": "A herbal brew to reduce fever and provide relief.",
+        "ingredients": "Basil leaves, Ginger, Cinnamon, Honey, Lemon",
+        "instructions": "1. Boil basil leaves ginger and cinnamon in water.,2. Strain the mixture and add honey and lemon juice.,3. Drink this brew while warm.",
+        "imageUrl": "https://www.netmeds.com/images/cms/magefan_blog/nmslite/1586154884_viralfever_features_480.jpg",
+        "caution": "Monitor fever closely and seek medical attention if it persists or worsens. This remedy is not a replacement for professional medical care.",
+        "categoryname": "Fever"
+    },
+    {
+        "remedyName": "Hibiscus Tea",
+        "description": "Hibiscus tea is known for its ability to help lower blood pressure and improve heart health.",
+        "ingredients": "1-2 teaspoons of dried hibiscus petals or 1 hibiscus tea bag, 1 cup of water, Honey or lemon (optional, for taste)",
+        "instructions": "1. Boil a cup of water in a saucepan.,2. Once the water is boiling add the dried hibiscus petals or tea bag to the water.,3. Let it steep for about 5-10 minutes.,4. Remove from heat and strain the tea into a cup.,5. If desired add honey or lemon for taste. ,6. Drink this hibiscus tea daily to help support heart health.",
+        "imageUrl": "https://t3.ftcdn.net/jpg/01/26/70/70/360_F_126707014_B79GGbmUYSe2bdseFFNcZpINQW6ft8bv.jpg",
+        "caution": "While hibiscus tea is generally safe for most people, it may interact with certain medications, including some medications used to lower blood pressure. Consult with your healthcare provider before consuming hibiscus tea regularly, especially if you are taking medications or have any underlying health conditions.",
+        "categoryname": "Heart Disease"
+    },
+    {
+        "remedyName": "Lemon Juice and Olive Oil",
+        "description": "This combination is believed to help break down kidney stones and ease their passage.",
+        "ingredients": "1 to 2 tablespoons of fresh lemon juice,1 to 2 tablespoons of extra virgin olive oil,Water",
+        "instructions": "1. Mix equal parts of fresh lemon juice and extra virgin olive oil in a glass.,2. Drink the mixture followed by a glass of water.,3. Repeat this remedy 2-3 times a day until the kidney stone passes.",
+        "imageUrl": "https://bloomingmandala.com.au/wp-content/uploads/2018/11/BLOG-IMAGE-LSCAPE-SEPT18-HONEY-LEMON-OLIVE-OIL-COUGH-COLD-REMEDY-2-1200x622.jpg",
+        "caution": "Consult with a healthcare provider before trying this remedy, especially if you have any underlying health conditions or are taking medications. This remedy may not be suitable for all types of kidney stones. It's essential to get a proper diagnosis from a healthcare professional.",
+        "categoryname": "Kidney Stone"
+    },
+    {
+        "remedyName": "Karela Juice",
+        "description": "Karela (bitter gourd) juice is believed to be beneficial for jaundice patients due to its detoxifying properties.",
+        "ingredients": "1 bitter gourd (karela)",
+        "instructions": "1. Wash the bitter gourd thoroughly and cut it into small pieces.,2. Blend the pieces to extract the juice.,3. Drink this juice once daily on an empty stomach.",
+        "imageUrl": "https://st4prdbebeautiful4s4ci.blob.core.windows.net/www-bebeautiful-in/Incredible-karela-juice-benefits-for-skin-hair-and-health_mobilehome.jpg",
+        "caution": "Individuals with low blood sugar levels should consume karela juice with caution. Consult a healthcare professional before starting any new remedy.",
+        "categoryname": "Pilia(Jaundice)"
+    },
+    {
+        "remedyName": "Papaya Leaf Juice",
+        "description": "Papaya leaf juice is believed to help increase platelet count and alleviate symptoms of Dengue fever.",
+        "ingredients": "Fresh papaya leaves",
+        "instructions": "1. Wash fresh papaya leaves thoroughly and remove the stems.,2. Crush the leaves to extract the juice.,3. Strain the juice to remove any solid particles.,4. Drink this papaya leaf juice twice daily until symptoms improve.",
+        "imageUrl": "https://assets.thehansindia.com/h-upload/2021/03/26/1600x960_1064212-papaya-leaf-juice.jpg",
+        "caution": "While papaya leaf juice is considered safe for most people, it's essential to consult with a healthcare professional before using it, especially if you have any underlying health conditions or are pregnant.",
+        "categoryname": "Dengue Fever"
+    },
+    {
+        "remedyName": "Diarrhoea-Relieving Herbal Potion",
+        "description": "Herbal potion to alleviate symptoms and promote recovery from diarrhoea.",
+        "ingredients": "Banana, Ginger, Mint leaves, Lemon juice, Honey",
+        "instructions": "1. Blend banana ginger mint leaves lemon juice and honey.,2. Drink this potion several times a day.",
+        "imageUrl": "https://www.manipalhospitals.com/uploads/image_gallery/loose-motion-remedies-manipal-hospitals.jpg",
+        "caution": "Monitor symptoms and seek medical attention if diarrhoea persists or worsens. This remedy is not a substitute for professional medical care.",
+        "categoryname": "Diarrhea"
+    },
+    {
+        "remedyName": "Saltwater Rinse",
+        "description": "Saltwater rinse is an effective home remedy for maintaining oral health and preventing gum disease. It helps to reduce inflammation, kill bacteria, and promote healing of the gums.",
+        "ingredients": "1 teaspoon of salt,1 cup of warm water",
+        "instructions": "1. Dissolve the salt in warm water.,2. Swish the saltwater solution around in your mouth for about 30 seconds then spit it out.,3. Repeat this process 2-3 times a day especially after meals.",
+        "imageUrl": "https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325238/natural-salt-gargle-mouthwash-rinse.jpg",
+        "caution": "Avoid swallowing the saltwater rinse. If you experience any irritation or discomfort, discontinue use and consult with a dentist or healthcare professional.",
+        "categoryname": "Gum Disease"
+    },
+    {
+        "remedyName": "Aloe Vera Gel",
+        "description": "Aloe Vera gel is known for its soothing and anti-inflammatory properties, making it effective for relieving itching caused by minor skin irritations, insect bites, or allergic reactions.",
+        "ingredients": "Fresh Aloe Vera gel",
+        "instructions": "1. Extract fresh Aloe Vera gel from an Aloe Vera leaf.,2. Apply the gel directly to the affected area of the skin.,3. Leave it on for 15-20 minutes then rinse it off with lukewarm water.,4. Repeat this process as needed until the itching subsides.",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/2395/7673/files/aloe-vera-gel-FP-recipe-7_480x480.jpg?v=1638776842",
+        "caution": "While Aloe Vera gel is generally safe for topical use, it's essential to perform a patch test before applying it to larger areas of the skin, especially if you have sensitive skin or allergies.",
+        "categoryname": "Itching"
+    },
+    {
+        "remedyName": "Peppermint Tea",
+        "description": "Peppermint tea is known for its soothing properties and can help relieve symptoms of food poisoning such as nausea, vomiting, and abdominal cramps.",
+        "ingredients": "1 teaspoon of dried peppermint leaves or 1 peppermint tea bag,1 cup of water,Honey or lemon (optional, for taste)",
+        "instructions": "1. Boil a cup of water in a saucepan. ,2.Once the water is boiling add the dried peppermint leaves or tea bag to the water.,3. Let it steep for about 5-10 minutes.,4. Remove from heat and strain the tea into a cup.,5. If desired add honey or lemon for taste. Drink this peppermint tea slowly to help soothe your stomach and relieve symptoms of food poisoning.",
+        "imageUrl": "https://fruitguys.com/wp-content/uploads/2011/06/mint-tea-trans1.jpg",
+        "caution": "Avoid consuming peppermint tea if you have gastroesophageal reflux disease (GERD) or if you are allergic to menthol. Consult with a healthcare professional before using peppermint tea, especially if you have any underlying health conditions or are pregnant.",
+        "categoryname": "Food Poisoning"
+    },
+    {
+        "remedyName": "Oral Rehydration Solution (ORS)",
+        "description": "ORS is a balanced solution of electrolytes and fluids that helps replace lost fluids and minerals in the body due to dehydration.",
+        "ingredients": "1 liter of clean water,6 level teaspoons of sugar 1/2 level teaspoon of salt",
+        "instructions": "1. Mix the sugar and salt in the clean water until dissolved.,2. Drink the solution slowly in small sips.,3. Repeat every few hours until hydration is restored.",
+        "imageUrl": "https://api.parashospitals.com/uploads/2018/07/Home-made-ORS.jpg",
+        "caution": "ORS is not a substitute for medical treatment. If dehydration is severe or persists despite oral rehydration, seek medical attention immediately.",
+        "categoryname": "Dehydration"
+    },
+    {
+        "remedyName": "Nutritious Diet",
+        "description": "A nutritious diet rich in vitamins and minerals can help support overall health during tuberculosis treatment. Proper nutrition strengthens the immune system and aids in recovery.",
+        "ingredients": "A variety of nutrient-rich foods including fruits, vegetables, lean proteins, whole grains, and healthy fats.",
+        "instructions": "1. Incorporate a balanced diet that includes a variety of nutrient-rich foods.,2. Consume plenty of fruits vegetables lean proteins (such as poultry fish beans and lentils) whole grains and healthy fats (such as those found in nuts seeds and olive oil).,3. Stay hydrated by drinking plenty of water throughout the day.",
+        "imageUrl": "https://www.alimentarium.org/sites/default/files/media/image/2017-04/EMAG_balanced_meal_shutterstock_54369673_TOP_0_0.jpg",
+        "caution": "While a nutritious diet can support overall health during TB treatment, it's essential to follow the treatment plan prescribed by healthcare professionals. Do not rely solely on home remedies for TB treatment. Always consult with a healthcare provider for proper medical advice and treatment.",
+        "categoryname": "Tuberculosis"
+    },
+    {
+        "remedyName": "Turmeric Milk",
+        "description": "Turmeric contains curcumin, which has anti-inflammatory and antioxidant properties. Drinking turmeric milk may help reduce inflammation in the airways and alleviate asthma symptoms.",
+        "ingredients": "1 teaspoon of turmeric powder,1 cup of milk,A pinch of black pepper (optional, to enhance absorption of curcumin)",
+        "instructions": "1. Heat the milk in a saucepan until it starts to simmer.,2. Add the turmeric powder and black pepper (if using) to the milk.,3. Stir well and continue to simmer for a few minutes.,4. Remove from heat and let it cool slightly before drinking.",
+        "imageUrl": "https://media.istockphoto.com/id/1149544865/photo/hot-healthy-drink-turmeric-latte-golden-milk-with-turmeric-root-ginger-powder-black-pepper.jpg?s=612x612&w=0&k=20&c=GUj6INIL-1CqCJbuxVpQWxFaNqHrIthVZqmwmNhwHRI=",
+        "caution": "Avoid this remedy if you are allergic to turmeric or milk. Consult with a healthcare professional before using this remedy, especially if you are pregnant, breastfeeding, or have any underlying health conditions.",
+        "categoryname": "Asthma"
+    },
+    {
+        "remedyName": "Feverfew Tea",
+        "description": "Feverfew is a medicinal herb known for its anti-inflammatory and antipyretic properties. Drinking feverfew tea may help reduce fever and alleviate symptoms of malaria.",
+        "ingredients": "1 teaspoon of dried feverfew leaves,1 cup of water, Honey or lemon (optional, for taste)",
+        "instructions": "1. Boil a cup of water in a saucepan.,2. Add the dried feverfew leaves to the boiling water.,3. Let it simmer for about 5-10 minutes.,4. Remove from heat and strain the tea into a cup.,5. If desired add honey or lemon for taste.,6. Drink this feverfew tea slowly to help reduce fever and alleviate malaria symptoms.",
+        "imageUrl": "https://previews.agefotostock.com/previewimage/medibigoff/93aceabdbb8786b9f8c37a4ac8889169/rdc-ad-157915.jpg",
+        "caution": "Avoid consuming feverfew if you are pregnant or allergic to plants in the Asteraceae/Compositae family. Consult with a healthcare professional before using feverfew tea, especially if you are pregnant, breastfeeding, or have any underlying health conditions.",
+        "categoryname": "Malaria"
+    }
+]

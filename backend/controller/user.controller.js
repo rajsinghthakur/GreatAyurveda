@@ -44,6 +44,8 @@ const sendOTP = (receverMail) => {
 // sed mail with OTP end =================================================================
 
 export const SignUp = (request, response, next) => {
+    console.log(request.body);
+    
     const errors = validationResult(request);
     if (!errors.isEmpty())
         return response.status(401).json({ error: errors.array() });
@@ -52,13 +54,12 @@ export const SignUp = (request, response, next) => {
         name: request.body.name,
         email: request.body.email,
         password: request.body.password,
-        contactNumber: request.body.contactNumber
+        // contactNumber: request.body.contactNumber
     })
         .then((result) => {
             return response.status(200).json({ data: result.dataValues, message: "User created..." });
         })
         .catch((err) => {
-            console.log(err);
             return response.status(500).json({ error: "Internal server error...", err });
         })
 }
@@ -72,6 +73,8 @@ export const signIn = async (request, response, next) => {
     let password = request.body.password;
 
     let user = await User.findOne({ where: { email: email }, raw: true });
+    console.log(user);
+    
     if (user) {
         if (User.checkPassword(password, user.password)) {
             let payload = { subject: email };

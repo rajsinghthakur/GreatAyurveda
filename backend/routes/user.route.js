@@ -9,7 +9,7 @@ router.post("/signUp",
     body("email", "invalid email").isEmail().notEmpty(),
     body("password", "invalid password").notEmpty(),
     body("name", "invalid name").notEmpty(),
-    body("contactNumber", "invalid contactNumber").isNumeric().notEmpty(),
+    // body("contactNumber", "invalid contactNumber").isNumeric().notEmpty(),
     SignUp);
 
 router.post("/signIn",

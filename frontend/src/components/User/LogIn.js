@@ -17,13 +17,13 @@ export default function LogIn() {
     const [name, setname] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [contactNumber, setcontactNumber] = useState("");
+    // const [contactNumber, setcontactNumber] = useState("");
     let [input, setinput] = useState("");
     let [pass, setpass] = useState(" ");
     let [input2, setinput2] = useState("");
     let [pass2, setpass2] = useState(" ");
     let [email2, setemail2] = useState("");
-    let [number2, setnumber2] = useState("");
+    // let [number2, setnumber2] = useState("");
 
     const navigate = useNavigate();
     const signIn = () => {
@@ -42,7 +42,8 @@ export default function LogIn() {
     }
 
     const signUp = () => {
-        axios.post(process.env.React_APP_SECRET_KEY_SignUp, { name, email, password, contactNumber })
+        // axios.post(process.env.React_APP_SECRET_KEY_SignUp, { name, email, password, contactNumber })
+        axios.post(process.env.React_APP_SECRET_KEY_SignUp, { name, email, password })
             .then(response => {
                 if (response.status === 200) {
                     toast.success("Sign Up Success....");
@@ -59,19 +60,26 @@ export default function LogIn() {
         event.preventDefault(); // 👈️ prevent page refresh
     }
 
-    const [user, setUser] = useState(null);
-    const [profile, setProfile] = useState(null);
+    // const [user, setUser] = useState(null);
+    // const [profile, setProfile] = useState(null);
 
-    const login = useGoogleLogin({
+    const signin = useGoogleLogin({
         onSuccess: (codeResponse) => {
-            setUser(codeResponse);
-            console.log(codeResponse);
-            Userdata(codeResponse);
+            // setUser(codeResponse);
+            // console.log("codeResponse", codeResponse);
+            Userdata(codeResponse,"signin");
         },
         onError: (error) => console.log('Login Failed:', error),
     });
 
-    const Userdata = (userData) => {
+    const signup = useGoogleLogin({
+        onSuccess: (codeResponse) => {
+            Userdata(codeResponse,"signup");
+        },
+        onError: (error) => console.log('Login Failed:', error),
+    });
+
+    const Userdata = (userData, type) => {
         if (userData) {
             axios
                 .get(`https://www.googleapis.com/oauth2/v1/userinfo?access_token=${userData.access_token}`, {
@@ -81,14 +89,26 @@ export default function LogIn() {
                     }
                 })
                 .then((res) => {
+                    const googlename = document.getElementById('googlename');
                     const googleemail = document.getElementById('googleemail');
                     const googleemail2 = document.getElementById('googleemail2');
-                    const googlename = document.getElementById('googlename');
+                    const googlepassword = document.getElementById('googlepassword');
+                    const googlepassword2 = document.getElementById('googlepassword2');
+                    googlename.value = res.data.name;
                     googleemail.value = res.data.email;
                     googleemail2.value = res.data.email;
-                    googlename.value = res.data.name;
-                    setProfile(res.data);
-                    console.log(res.data);
+                    googlepassword.value = res.data.id;
+                    googlepassword2.value = res.data.id;
+                    setname(res.data.name);
+                    setEmail(res.data.email);
+                    setPassword(res.data.id);
+                    setemail2("");
+                    setpass2("");
+                    setinput2("");
+                    setinput("");
+                    setpass("");
+                    // setProfile(res.data);
+                    // console.log("res", res.data);
                 })
                 .catch((err) => console.log('Failed', err));
         }
@@ -113,12 +133,13 @@ export default function LogIn() {
                             <small className='signin-input-message'>{input2}</small>
                             <input className='signin-password' id="googleemail" onChange={(event) => { (event.target.value === "") ? setemail2("email is required") : (!event.target.value.match(/^[^\s@]+@/)) ? setemail2("Email must start with valid characters.") : (!event.target.value.match(/@gmail\.com$/)) ? setemail2("Email must end with '@gmail.com'.") : setemail2(""); setEmail(event.target.value); }} type="email" placeholder="Email" />
                             <small className='signin-input-message'>{email2}</small>
-                            <input className='signin-password' onChange={(event) => { (event.target.value === "") ? setpass2("password is required") : (!event.target.value.match(/^(?=.*\d)/)) ? setpass2("Password must contain at least one digit.") : (!event.target.value.match(/^(?=.*[a-zA-Z])/)) ? setpass2("Password must contain at least one letter.") : (!event.target.value.match(/^.{5,}$/)) ? setpass2("Password must be at least 5 characters long.") : setpass2(""); setPassword(event.target.value); }} type="password" placeholder="Password" />
+                            <input className='signin-password' id="googlepassword" onChange={(event) => { (event.target.value === "") ? setpass2("password is required") : (!event.target.value.match(/^(?=.*\d)/)) ? setpass2("Password must contain at least one digit.") : (!event.target.value.match(/^(?=.*[a-zA-Z])/)) ? setpass2("Password must contain at least one letter.") : (!event.target.value.match(/^.{5,}$/)) ? setpass2("Password must be at least 5 characters long.") : setpass2(""); setPassword(event.target.value); }} type="password" placeholder="Password" />
                             <small className='signin-input-message'>{pass2}</small>
-                            <input className='signin-password' onChange={(event) => { (event.target.value === "") ? setnumber2("number is required") : (!event.target.value.match(/^[0-9]+$/)) ? setnumber2("Number must contain only digits.") : (!event.target.value.match(/^\d{10}$/)) ? setnumber2("Number must only 10 digits.") : setnumber2(""); setcontactNumber(event.target.value); }} type="number" placeholder="Number" />
-                            <small className='signin-input-message'>{number2}</small>
-                            {(input2 === pass2 && pass2 === email2 && email2 === number2) ? <button onClick={signUp}>Sign Up</button> : <button onClick={() => { (name === "") ? setinput2("name is required") : (email === "") ? setemail2("email is required") : (password === "") ? setpass2("password is required") : (contactNumber === "") ? setnumber2("number is required") : setpass2(" ") }} style={{ background: "var(--green-3)" }}>Sign Up</button>}
-                            <div className="googleloginicon mt-3" onClick={login}></div>
+                            {/* <input className='signin-password' onChange={(event) => { (event.target.value === "") ? setnumber2("number is required") : (!event.target.value.match(/^[0-9]+$/)) ? setnumber2("Number must contain only digits.") : (!event.target.value.match(/^\d{10}$/)) ? setnumber2("Number must only 10 digits.") : setnumber2(""); setcontactNumber(event.target.value); }} type="number" placeholder="Number" />
+                            <small className='signin-input-message'>{number2}</small> */}
+                            {/* {(input2 === pass2 && pass2 === email2 && email2 === number2) ? <button onClick={signUp}>Sign Up</button> : <button onClick={() => { (name === "") ? setinput2("name is required") : (email === "") ? setemail2("email is required") : (password === "") ? setpass2("password is required") : (contactNumber === "") ? setnumber2("number is required") : setpass2(" ") }} style={{ background: "var(--green-3)" }}>Sign Up</button>} */}
+                            {(input2 === pass2 && pass2 === email2) ? <button onClick={signUp}>Sign Up</button> : <button onClick={() => { (name === "") ? setinput2("name is required") : (email === "") ? setemail2("email is required") : (password === "") ? setpass2("password is required") : setpass2(" ") }} style={{ background: "var(--green-3)" }}>Sign Up</button>}
+                            <div className="googleloginicon mt-3" onClick={signup}></div>
                         </form>
                     </div>
                     <div className="form-container sign-in ">
@@ -133,11 +154,11 @@ export default function LogIn() {
                             <span>or use your email password</span>
                             <input className='signin-password' id="googleemail2" onChange={(event) => { (event.target.value === "") ? setemail2("email is required") : (!event.target.value.match(/^[^\s@]+@gmail\.com$/)) ? setemail2("Invalid Email.") : setemail2(""); setEmail(event.target.value); }} type="email" placeholder="Email" />
                             <small className='signin-input-message'>{email2}</small>
-                            <input className='signin-password' onChange={(event) => { (event.target.value === "") ? setpass("password is required") : setpass(""); setPassword(event.target.value); }} type="password" placeholder="Password" />
+                            <input className='signin-password' id="googlepassword2" onChange={(event) => { (event.target.value === "") ? setpass("password is required") : setpass(""); setPassword(event.target.value); }} type="password" placeholder="Password" />
                             <small className='signin-input-message'>{pass}</small>
                             <Link className="ml-3 links " to="/forgetpassword">→ Forget Your Password? ←</Link>
                             {(input === pass) ? <button onClick={signIn}>Sign In</button> : <button onClick={() => { (name === "") ? setinput("name is required") : (password === "") ? setpass("password is required") : setpass(" ") }} style={{ background: "var(--green-3)" }}>Sign In</button>}
-                            <div className="googleloginicon mt-3" onClick={login}></div>
+                            <div className="googleloginicon mt-3" onClick={signin}></div>
                         </form>
                     </div>
                     <div className="toggle-container">

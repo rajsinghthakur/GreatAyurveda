@@ -30,7 +30,6 @@ const User = sequelize.define("user", {
     },
     contactNumber: {
         type: DataTypes.STRING(10),
-        allowNull: false,
         unique: true
     },
     gender: {

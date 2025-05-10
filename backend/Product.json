@@ -1,0 +1,292 @@
+[
+    {
+        "id": 1,
+        "title": "Ayurvedic Asthma Relief Capsules",
+        "brand": "AyurAsthma",
+        "price": 699.00,
+        "description": "AyurAsthma's Asthma Relief Capsules are a natural blend of Ayurvedic herbs known for their bronchodilator and anti-inflammatory properties. This formulation helps to alleviate symptoms of asthma such as wheezing, shortness of breath, and chest tightness. Regular intake can support respiratory health and improve lung function.",
+        "imageUrl": "http://5.imimg.com/data5/ECOM/Default/2023/7/328169530/EG/DF/PI/64569152/asthmacarecapsules-1-1000x1000-500x500.jpg",
+        "rating": 5,
+        "categoryname": "Asthma"
+    },
+    {
+        "id": 2,
+        "title": "Ayurvedic Diabetes Control Supplement",
+        "brand": "DiabCare",
+        "price": 330.00,
+        "description": "DiabCare's Diabetes Control Supplement is a blend of Ayurvedic herbs that help regulate blood sugar levels naturally. This formulation supports pancreatic health, improves insulin sensitivity, and reduces glucose absorption in the intestine. Regular use can aid in managing diabetes effectively.",
+        "imageUrl": "http://5.imimg.com/data5/SELLER/Default/2023/12/369956422/QR/KK/JN/205478556/whatsapp-image-2023-12-20-at-14-37-42-49d1a538-jpg-500x500.jpg",
+        "rating": 3,
+        "categoryname": "Diabetes"
+    },
+    {
+        "id": 3,
+        "title": "Ayurvedic Heart Health Tonic",
+        "brand": "HeartEase",
+        "price": 450.00,
+        "description": "HeartEase's Heart Health Tonic is a combination of Ayurvedic herbs that promote cardiovascular wellness. This tonic helps to strengthen the heart muscle, improve blood circulation, and regulate blood pressure. It also supports healthy cholesterol levels and reduces the risk of heart disease.",
+        "imageUrl": "https://bioresurge.in/cdn/shop/products/Regustrol-1_c2f51baa-5e81-4324-acb5-e442767a78cb_1024x1024.jpg?v=1678341774",
+        "rating": 4,
+        "categoryname": "Heart Disease"
+    },
+    {
+        "id": 4,
+        "title": "Ayurvedic Depression Relief Capsules",
+        "brand": "AyurDepress",
+        "price": 2.413,
+        "description": "AyurDepress's Depression Relief Capsules are formulated with Ayurvedic herbs known for their mood-enhancing and stress-relieving properties. This blend helps to alleviate symptoms of depression such as sadness, anxiety, and low energy levels. Regular consumption promotes emotional balance and overall well-being.",
+        "imageUrl": "http://5.imimg.com/data5/SELLER/Default/2024/1/377467676/MN/QV/FS/47206663/depression-herbal-medicine-500x500.jpg",
+        "rating": 3,
+        "categoryname": "Depression"
+    },
+    {
+        "id": 5,
+        "title": "Ayurvedic Migraine Relief Oil",
+        "brand": "AyurMigran",
+        "price": 475.00,
+        "description": "AyurMigran's Migraine Relief Oil is a blend of natural Ayurvedic ingredients known for their therapeutic properties in relieving migraine symptoms. Formulated with herbs such as peppermint, lavender, and eucalyptus, this oil provides a cooling and soothing effect when applied to the temples and forehead. Regular use can help alleviate headaches, reduce tension, and promote relaxation.",
+        "imageUrl": "https://m.media-amazon.com/images/I/81wGgDGXQaL.jpg",
+        "rating": 3,
+        "categoryname": "Migraine"
+    },
+    {
+        "id": 6,
+        "title": "Ayurvedic Joint Pain Relief Oil",
+        "brand": "AyurJoint",
+        "price": 265.00,
+        "description": "AyurJoint's Joint Pain Relief Oil is crafted with a blend of Ayurvedic herbs renowned for their anti-inflammatory and analgesic properties. This oil penetrates deep into the muscles and joints to alleviate pain, stiffness, and swelling associated with arthritis and other joint conditions. Regular massage with this oil promotes flexibility and mobility.",
+        "imageUrl": "https://ambicayurved.com/wp-content/uploads/2021/10/5-1.jpg",
+        "rating": 5,
+        "categoryname": "Joint pain"
+    },
+    {
+        "id": 7,
+        "title": "Ayurvedic Sleep Aid Capsules",
+        "brand": "SleepEase",
+        "price": 386.00,
+        "description": "SleepEase's Sleep Aid Capsules are formulated with a blend of Ayurvedic herbs that promote relaxation and improve sleep quality. This natural remedy helps to calm the mind, reduce stress, and regulate sleep patterns. Regular consumption supports restful sleep and enhances overall well-being.",
+        "imageUrl": "http://5.imimg.com/data5/SELLER/Default/2024/1/378423548/RW/XB/ML/42449141/1-500x500.jpg",
+        "rating": 3,
+        "categoryname": "Sleep Disorder"
+    },
+    {
+        "id": 8,
+        "title": "Ayurvedic Headache Relief Tablets",
+        "brand": "HeadEase",
+        "price": 382.00,
+        "description": "HeadEase's Headache Relief Tablets contain a blend of Ayurvedic herbs known for their analgesic and calming properties. This formulation provides fast relief from headaches, including tension headaches and migraines. It soothes the nervous system, reduces pain perception, and promotes relaxation.",
+        "imageUrl": "https://m.media-amazon.com/images/I/514WSn-sjlL.jpg",
+        "rating": 4,
+        "categoryname": "Headache"
+    },
+    {
+        "id": 9,
+        "title": "Ayurvedic Anemia Support Tonic",
+        "brand": "AnemiaGuard",
+        "price": 349.00,
+        "description": "AnemiaGuard's Anemia Support Tonic is enriched with Ayurvedic herbs rich in iron, vitamins, and minerals essential for treating anemia. This tonic boosts red blood cell production, improves hemoglobin levels, and enhances overall energy and vitality. Regular consumption aids in combating fatigue and weakness associated with anemia.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61KratV-83L.jpg",
+        "rating": 2,
+        "categoryname": "Anemia"
+    },
+    {
+        "id": 10,
+        "title": "Ayurvedic Stomachache Relief Syrup",
+        "brand": "StomachEase",
+        "price": 180.00,
+        "description": "StomachEase's Stomachache Relief Syrup is a gentle and effective Ayurvedic formulation for soothing digestive discomfort. Crafted with herbs like ginger, peppermint, and fennel, this syrup helps alleviate stomach pain, bloating, and indigestion. It promotes healthy digestion and provides quick relief from stomach discomfort.",
+        "imageUrl": "http://5.imimg.com/data5/SELLER/Default/2022/2/MZ/WL/HR/128065473/collywobbles-syrup2-500x500.jpg",
+        "rating": 3,
+        "categoryname": "Stomach pain"
+    },
+    {
+        "id": 11,
+        "title": "Ayurvedic Blood Pressure Support Capsules",
+        "brand": "PressureGuard",
+        "price": 599.00,
+        "description": "PressureGuard's Blood Pressure Support Capsules are formulated with Ayurvedic herbs known for their hypotensive and cardioprotective properties. This blend helps regulate blood pressure levels naturally, promoting cardiovascular health and reducing the risk of hypertension-related complications. Regular use supports overall well-being.",
+        "imageUrl": "http://5.imimg.com/data5/SELLER/Default/2022/6/GU/CF/QP/37582664/blood-pressure-support-500x500.jpg",
+        "rating": 5,
+        "categoryname": "Blood pressure"
+    },
+    {
+        "id": 12,
+        "title": "Ayurvedic Loose Motion Relief Tablets",
+        "brand": "LooseEase",
+        "price": 200.00,
+        "description": "LooseEase's Loose Motion Relief Tablets provide fast and effective relief from diarrhea and loose stools. Formulated with astringent and anti-diarrheal Ayurvedic herbs, these tablets help normalize bowel movements, reduce frequency, and alleviate abdominal discomfort. They also support digestive health and hydration.",
+        "imageUrl": "https://mahaherbals.biz/public/uploads/product/Motion%20Balance%20Tablets%20-1634639745.jpg",
+        "rating": 4,
+        "categoryname": "Loose motion"
+    },
+    {
+        "id": 13,
+        "title": "Ayurvedic Cold & Flu Relief Syrup",
+        "brand": "ColdEase",
+        "price": 299.00,
+        "description": "ColdEase's Cold & Flu Relief Syrup is a blend of Ayurvedic herbs that help alleviate symptoms associated with coughs, colds, and flu. This syrup soothes sore throat, reduces congestion, and relieves coughing. It also boosts immunity and promotes faster recovery from respiratory infections.",
+        "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2021/3/VL/HU/KV/35229171/118a5862.JPG",
+        "rating": 5,
+        "categoryname": "Cough and Cold (Flu)"
+    },
+    {
+        "id": 14,
+        "title": "Ayurvedic Anxiety Relief Tablets",
+        "brand": "AnxietyEase",
+        "price": 1.099,
+        "description": "AnxietyEase's Anxiety Relief Tablets are crafted with a blend of Ayurvedic herbs known for their anxiolytic and calming effects. This formulation helps reduce symptoms of anxiety such as nervousness, restlessness, and irritability. It promotes relaxation, mental clarity, and emotional balance.",
+        "imageUrl": "https://www.shrichyawanayurved.com/cdn/shop/files/StressRelieverPackforanxiety_500x.webp?v=1695204938",
+        "rating": 5,
+        "categoryname": "Anxiety"
+    },
+    {
+        "id": 15,
+        "title": "Ayurvedic Typhoid Recovery Kit",
+        "brand": "TyphoidCare",
+        "price": 143.00,
+        "description": "TyphoidCare's Typhoid Recovery Kit contains a combination of Ayurvedic supplements and herbal remedies to support recovery from typhoid fever. This kit helps boost immunity, restore digestive health, and replenish electrolytes lost during illness. It aids in reducing fever, fatigue, and other symptoms associated with typhoid.",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/products_otc/F99972/hass-sanjeevani-vati-160-tab-of-250-mg-each-for-typhoid-fever-for-body-detoxification-2-1667977908.jpg?dim=700x0&dpr=1&q=100",
+        "rating": 3,
+        "categoryname": "Typhoid"
+    },
+    {
+        "id": 16,
+        "title": "Ayurvedic Malaria Treatment Syrup",
+        "brand": "MalariaGuard",
+        "price": 120.00,
+        "description": "MalariaGuard's Malaria Treatment Syrup is formulated with a blend of Ayurvedic herbs known for their antimalarial and immune-boosting properties. This syrup helps alleviate symptoms of malaria such as fever, chills, and body aches. It supports the body's natural defense mechanisms and aids in faster recovery.",
+        "imageUrl": "https://5.imimg.com/data5/ANDROID/Default/2021/9/GP/XX/HF/137138459/product-jpeg-500x500.jpg",
+        "rating": 3,
+        "categoryname": "Malaria"
+    },
+    {
+        "id": 17,
+        "title": "Ayurvedic Dengue Fever Relief Capsules",
+        "brand": "DengueEase",
+        "price": 270.00,
+        "description": "DengueEase's Dengue Fever Relief Capsules are crafted with a blend of Ayurvedic herbs known for their antiviral and immunomodulatory properties. These capsules help alleviate symptoms of dengue fever such as fever, headache, and body pain. They support immune function and aid in faster recovery.",
+        "imageUrl": "http://5.imimg.com/data5/SELLER/Default/2023/4/303340448/WZ/SH/MF/64217912/dengue-fever-ayurvedic-treatment-services.jpg",
+        "rating": 5,
+        "categoryname": "Dengue fever"
+    },
+    {
+        "id": 18,
+        "title": "Ayurvedic Fever Relief Syrup",
+        "brand": "FeverEase",
+        "price": 570.00,
+        "description": "FeverEase's Fever Relief Syrup is formulated with Ayurvedic herbs known for their antipyretic and immune-boosting properties. This syrup helps reduce fever, alleviate body aches, and promote sweating to expel toxins. It supports the body's natural defense mechanisms during febrile conditions.",
+        "imageUrl": "https://m.media-amazon.com/images/I/515yrcXB+WL.SX569.jpg",
+        "rating": 5,
+        "categoryname": "Fever"
+    },
+    {
+        "id": 19,
+        "title": "Ayurvedic Cholesterol Balance Capsules",
+        "brand": "CholestGuard",
+        "price": 200.00,
+        "description": "CholestGuard's Cholesterol Balance Capsules contain a blend of Ayurvedic herbs that help regulate cholesterol levels naturally. This formulation supports liver function, reduces LDL (bad) cholesterol, and increases HDL (good) cholesterol. Regular use promotes cardiovascular health and reduces the risk of cholesterol-related complications.",
+        "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2024/1/377455461/ES/UF/EA/47206663/ayurvedic-cholesterol-capsule-500x500.jpg",
+        "rating": 5,
+        "categoryname": "Cholesterol imbalance"
+    },
+    {
+        "id": 20,
+        "title": "Ayurvedic Kidney Stone Dissolver",
+        "brand": "KidneyStoneEase",
+        "price": 40.99,
+        "description": "KidneyStoneEase's Kidney Stone Dissolver is a blend of Ayurvedic herbs known for their diuretic and lithotriptic properties. This formulation helps dissolve kidney stones, reduce pain, and improve urinary flow. It also supports kidney function and prevents the formation of new stones.",
+        "imageUrl": "https://example.com/ayurvedic_kidney_stone_dissolver.jpg",
+        "rating": 4,
+        "categoryname": "Kidney Stone"
+    },
+    {
+        "id": 21,
+        "title": "Ayurvedic Jaundice Relief Tonic",
+        "brand": "JaundiceGuard",
+        "price": 180.00,
+        "description": "JaundiceGuard's Jaundice Relief Tonic is formulated with Ayurvedic herbs known for their hepatoprotective and liver-regenerating properties. This tonic helps alleviate symptoms of jaundice such as yellowing of the skin and eyes, fatigue, and nausea. It supports liver detoxification and aids in faster recovery.",
+        "imageUrl": "http://5.imimg.com/data5/SELLER/Default/2023/12/365237428/TM/QP/ME/181717455/200ml-jaundowin-ayurvedic-jaundice-syrup.jpg",
+        "rating": 4,
+        "categoryname": "Pilia(Jaundice)"
+    },
+    {
+        "id": 22,
+        "title": "Ayurvedic Acidity Relief Syrup",
+        "brand": "AcidEase",
+        "price": 825.00,
+        "description": "AcidEase's Acidity Relief Syrup is crafted with a blend of Ayurvedic herbs known for their antacid and gastroprotective properties. This syrup helps neutralize stomach acid, alleviate heartburn, and soothe the digestive tract. It promotes digestive comfort and reduces acidity-related discomfort.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61qme6HHA7L.jpg",
+        "rating": 3,
+        "categoryname": "Acidity"
+    },
+    {
+        "id": 23,
+        "title": "Ayurvedic Diarrhea Relief Capsules",
+        "brand": "DiarrheaGuard",
+        "price": 500.00,
+        "description": "DiarrheaGuard's Diarrhea Relief Capsules contain aand normal bowel movements, reduce frequency and severity of diarrhea, and alleviate abdominal discomfort. They also support the body's natural defense mechanisms against gastrointestinal infections.",
+        "imageUrl": "https://ik.imagekit.io/jammi/img/Dtablets.png",
+        "rating": 2,
+        "categoryname": "Diarrhea"
+    },
+    {
+        "id": 24,
+        "title": "Ayurvedic Gum Health Toothpaste",
+        "brand": "GumGuard",
+        "price": 304.00,
+        "description": "GumGuard's Gum Health Toothpaste is formulated with Ayurvedic herbs known for their antibacterial and anti-inflammatory properties. This toothpaste helps prevent and reduce gum disease, gingivitis, and periodontitis. It strengthens gums, promotes oral hygiene, and maintains overall oral health.",
+        "imageUrl": "https://zanducare.com/cdn/shop/files/Zandu-Dantveer-Toothpaste_Tube-_-SPC_200g_Combo.jpg?v=1700803273",
+        "rating": 5,
+        "categoryname": "Gum Disease"
+    },
+    {
+        "id": 25,
+        "title": "Ayurvedic Itch Relief Cream",
+        "brand": "ItchEase",
+        "price": 120.00,
+        "description": "ItchEase's Itch Relief Cream is a soothing Ayurvedic formulation for relieving itching and irritation of the skin. Enriched with cooling and anti-inflammatory herbs, this cream provides instant relief from itching due to insect bites, rashes, eczema, and other skin conditions. It nourishes and hydrates the skin, promoting healing and comfort.",
+        "imageUrl": "https://himalayawellness.in/cdn/shop/products/anti-rash-cream-20g.jpg?v=1622099353",
+        "rating": 4,
+        "categoryname": "Itching"
+    },
+    {
+        "id": 26,
+        "title": "Ayurvedic Food Poisoning Remedy Kit",
+        "brand": "FoodPoisonGuard",
+        "price": 179.00,
+        "description": "FoodPoisonGuard's Food Poisoning Remedy Kit contains a combination of Ayurvedic remedies to alleviate symptoms of food poisoning. This kit includes herbal supplements and digestive aids to help restore gastrointestinal health, reduce nausea, vomiting, diarrhea, and abdominal cramps. It supports detoxification and promotes faster recovery from foodborne illnesses.",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0252/0904/5067/files/Pancharishta_650ml_30f985e2-58e0-428c-a3b3-a9d862bfc1ef.png",
+        "rating": 5,
+        "categoryname": "Food Poisoning"
+    },
+    {
+        "id": 27,
+        "title": "Ayurvedic Rehydration Solution",
+        "brand": "RehydrateEase",
+        "price": 10.00,
+        "description": "RehydrateEase's Rehydration Solution is a balanced blend of electrolytes and Ayurvedic herbs to replenish fluids and minerals lost during dehydration. This solution helps restore hydration levels, alleviate symptoms of dehydration such as fatigue, dizziness, and dry mouth. It supports rapid rehydration and recovery.",
+        "imageUrl": "https://i0.wp.com/cvpharmacy-product-images.sgp1.digitaloceanspaces.com/wp-content/uploads/2023/07/52686-1.png?fit=500%2C500&ssl=1",
+        "rating": 3,
+        "categoryname": "Dehydration"
+    },
+    {
+        "id": 28,
+        "title": "Ayurvedic Tuberculosis Support Capsules",
+        "brand": "TBGuard",
+        "price": 550.00,
+        "description": "TBGuard's Tuberculosis Support Capsules are formulated with a blend of Ayurvedic herbs known for their immune-boosting and antimicrobial properties. These capsules help support the body's defense mechanisms against tuberculosis (TB) infection, promote respiratory health, and aid in faster recovery. They also alleviate symptoms such as coughing, chest pain, and fatigue.",
+        "imageUrl": "https://guruprasadam.in/wp-content/uploads/2024/03/tb-care-front-1000x1000-1.jpg",
+        "rating": 5,
+        "categoryname": "Tuberculosis"
+    },
+    {
+        "id": 29,
+        "title": "Ayurvedic Polio Prevention Drops",
+        "brand": "PolioGuard",
+        "price": 432.00,
+        "description": "PolioGuard's Polio Prevention Drops are a herbal formulation designed to support immune function and prevent polio infection. Enriched with Ayurvedic herbs known for their immunomodulatory and antiviral properties, these drops help strengthen the body's defense mechanisms against poliovirus. They support overall health and well-being.",
+        "imageUrl": "https://m.media-amazon.com/images/I/41WLQBRE5mL.jpg",
+        "rating": 5,
+        "categoryname": "Polio"
+    }
+]

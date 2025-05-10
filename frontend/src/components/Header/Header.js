@@ -172,7 +172,7 @@ const Header = () => {
                                                         </div>
                                                     </Link>
                                                 </li>
-                                                <li><hr className="dropdown-divider" /></li>
+                                                {/* <li><hr className="dropdown-divider" /></li>
                                                 <li>
                                                     <Link style={{ color: "var(--green)", textDecoration: "none" }} to="/doctorlogin">
                                                         <div className="dropdown-item d-flex align-items-center bg-white" style={{ color: "var(--green)" }}>
@@ -180,7 +180,7 @@ const Header = () => {
                                                             <span className="login-texth ms-2">Doctor</span>
                                                         </div>
                                                     </Link>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </li>
                                     )}
@@ -216,7 +216,7 @@ const Header = () => {
                                 <li className="nav-item loginheader"><Link className="nav-link" style={{ color: "var(--white)" }} to="/yoga">Yoga</Link></li>
                                 <li className="nav-item loginheader"><Link className="nav-link" style={{ color: "var(--white)" }} to="/homeremedy">Homeremedies</Link></li>
                                 <li className="nav-item loginheader"><Link className="nav-link" style={{ color: "var(--white)" }} to="/aboutUs">AboutUs</Link></li>
-                                <li className="nav-item loginheader"><Link className="nav-link" style={{ color: "var(--white)" }} to="/doctorconsult">Doctor</Link></li>
+                                {/* <li className="nav-item loginheader"><Link className="nav-link" style={{ color: "var(--white)" }} to="/doctorconsult">Doctor</Link></li> */}
                                 <li className="nav-item loginheader"><Link className="nav-link" style={{ color: "var(--white)" }} to="/contact">Contact</Link></li>
                             </ul>
                         </div>
